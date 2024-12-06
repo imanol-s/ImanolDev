@@ -11,7 +11,7 @@ const CONFIG = {
    */
   base: '/portfolio/',
   // uncomment this portion to add git projects to portfolio automatically
-  projects: {
+  /* projects: {
     /* github: {
       display: true, // Display GitHub projects?
       header: 'Github Projects',
