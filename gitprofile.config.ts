@@ -11,9 +11,9 @@ const CONFIG = {
    */
   base: '/portfolio/',
   // uncomment this portion to add git projects to portfolio automatically
-  /* projects: {
-    /* github: {
-      display: true, // Display GitHub projects?
+  projects: {
+     github: {
+      display: false, // Display GitHub projects?
       header: 'Github Projects',
       mode: 'automatic', // Mode can be: 'automatic' or 'manual'
       automatic: {
@@ -28,7 +28,7 @@ const CONFIG = {
         // Properties for manually specifying projects
         projects: ['arifszn/gitprofile', 'arifszn/pandora'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
-    } ,*/
+    } ,
     external: {
       header: 'My Projects',
       // To hide the `External Projects` section, keep it empty.
